@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:background="@drawable/backgroundimage"
+    android:layout_height="match_parent"
+    tools:context=".Result3">
+
+
+    <TextView
+        android:id="@+id/textView708"
+        android:layout_width="wrap_content"
+        android:layout_height="60dp"
+        android:layout_marginStart="179dp"
+        android:layout_marginLeft="179dp"
+        android:layout_marginTop="84dp"
+        android:layout_marginEnd="208dp"
+        android:textStyle="bold"
+        android:textColor="#e8f7fc"
+        android:gravity="center"
+
+        android:layout_marginRight="208dp"
+        android:background="@drawable/textviewback"
+        android:text="Congratulations, you have completed the text completion quiz, now its time to see the results."
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.462"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button708"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="150dp"
+        android:layout_marginLeft="150dp"
+        android:layout_marginTop="146dp"
+
+        android:textColor="#fffcb7"
+        android:textStyle="bold"
+        android:background="@drawable/buttonback"
+        android:layout_marginEnd="173dp"
+        android:layout_marginRight="173dp"
+        android:text="Check my score now"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView708" />
+</androidx.constraintlayout.widget.ConstraintLayout>

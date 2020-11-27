@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_reasons"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
+    android:orientation="vertical"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="mega.GRE.examination.Reasons">
+
+
+    <TextView
+        android:text="Today user's like you mostly want the best product but at the min possible cost. So generally it is quite difficult to find such a product, but this application is completely free of cost and is available on google play for your complete GRE preparation. It covers all the topics, enough practice questions and quiz to test your level of preparation. HAPPY LEARNING"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:textSize="20sp"
+        android:gravity="center"
+        android:layout_marginTop="180dp"
+        android:background="@drawable/textviewback"
+        android:textColor="#ffe766"
+        android:textStyle="bold"
+        android:id="@+id/textView10" />
+</LinearLayout>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/login_form704"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="@drawable/backgroundimage"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="mega.GRE.examination.textcompletionscroll5">
+
+        <TextView
+            android:id="@+id/textView704"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#fffcb7"
+            android:textSize="19dp"
+            android:text="Taking antibiotics for a viral infection may, it is true, be ____ ; however, in certain cases a course of these drugs can actually ward off opportunistic bacterial infections."
+            android:padding="16dp"
+            android:gravity="center"
+            android:textStyle="bold"
+
+            android:background="@drawable/textviewback"
+            android:layout_marginTop="10dp"/>
+
+        <RadioGroup
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="16dp"
+
+            android:gravity="center"
+            android:layout_marginTop="50dp"
+            android:background="@drawable/textviewback"
+            android:id="@+id/r704"
+            >
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="justified"
+                android:textColor="#fffcb7"
+                android:textStyle="bold"
+                android:id="@+id/radioButton716"
+                android:layout_gravity="left"
+                android:checked="false" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="enough"
+                android:textColor="#fffcb7"
+                android:textStyle="bold"
+                android:layout_gravity="left"
+                android:id="@+id/radioButton717" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="recommended"
+                android:layout_gravity="left"
+                android:textColor="#fffcb7"
+                android:textStyle="bold"
+                android:id="@+id/radioButton718" />
+
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="left"
+                android:textColor="#fffcb7"
+                android:textStyle="bold"
+                android:text="ineffective"
+                android:id="@+id/radioButton719" />
+        </RadioGroup>
+
+        <Button
+            android:layout_width="251dp"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:textColor="#fffcb7"
+            android:textStyle="bold"
+            android:background="@drawable/buttonback"
+            android:id="@+id/button704"
+            android:layout_margin="@dimen/activity_vertical_margin"
+
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</ScrollView>

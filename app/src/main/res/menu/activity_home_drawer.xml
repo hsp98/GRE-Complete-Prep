@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+
+
+    >
+
+    <group android:checkableBehavior="single"
+
+        >
+        <item
+            android:id="@+id/feedback"
+            android:icon="@drawable/feed"
+
+            android:title="Feedback" />
+        <item
+            android:id="@+id/faqs"
+            android:icon="@drawable/ques"
+            android:title="FAQs" />
+        <item
+            android:id="@+id/features"
+            android:icon="@drawable/services"
+            android:title="Features Glimpse" />
+
+        <item
+            android:id="@+id/universities"
+            android:icon="@drawable/uni"
+            android:title="Universities List" />
+
+
+    </group>
+
+    <item android:title="General Info">
+        <menu
+
+
+            >
+            <item
+                android:id="@+id/terms"
+                android:icon="@drawable/terms"
+
+                android:title="Terms and Conditions" />
+            <item
+                android:id="@+id/privacy"
+                android:icon="@drawable/privacy"
+                android:title="Privacy Policies" />
+            <item
+                android:id="@+id/contact"
+                android:icon="@drawable/call"
+                android:title="Connect with us" />
+            <item
+                android:id="@+id/reasons"
+                android:icon="@drawable/why"
+                android:title="Why choose us" />
+
+
+
+        </menu>
+    </item>
+
+</menu>

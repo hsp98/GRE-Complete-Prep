@@ -1,0 +1,192 @@
+<ScrollView android:id="@+id/comeonman"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/backgroundimage"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:background="@drawable/backgroundimage"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="com.homefilescenter.dynamicrankingplatform.mega.homefilescenterofficial.Contactus">
+
+        <TextView
+            android:id="@+id/f1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#ffe766"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="1)-All the 3 sections are available that are Quant, Verbal and Quiz.."
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textviewback"
+            android:layout_marginTop="10dp"/>
+
+        <TextView
+            android:id="@+id/f2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#ffe766"
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="2)-This app is free of cost that provides complete preparation."
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textviewback"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:id="@+id/f3"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#ffe766"
+
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="3)-It has more than 150 word lists with their meanings and examples in a sentence. The verbal section also has text completion type questions for practice."
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textviewback"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/f4"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#ffe766"
+
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="4)-Quantitative comparison and numreric entry type questions are covered for the quantitative section.."
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textviewback"
+            android:layout_marginTop="30dp"/>
+
+
+        <TextView
+            android:id="@+id/f6"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#ffe766"
+
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="5)-A feedback section where the students can give us the feedback, and based on those we will improve the application features."
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textviewback"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/f7"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#ffe766"
+
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="6)-A university vault section, where the students can get information about top universities for pursuing their masters. The web address of the universities is mentioned."
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textviewback"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:id="@+id/f8"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#ffe766"
+
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="7)-A list of FAQs that helps the students to get the answers to questionns that they have in mind."
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textviewback"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/f9"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#ffe766"
+
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="8)-A miscellaneous quiz section that has questions from both quant and verbal section for practice."
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textviewback"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:id="@+id/f10"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#ffe766"
+
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="9)-A contact us section, from where the students can reach us at any time if they have any doubts in accessing the application."
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textviewback"
+            android:layout_marginTop="30dp"/>
+
+        <TextView
+            android:id="@+id/f11"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#ffe766"
+
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="10)-Privacy policies and terms and conditions section, which will help to protect our application from any copyright infringement."
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textviewback"
+            android:layout_marginTop="30dp"/>
+        <TextView
+            android:id="@+id/f12"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#ffe766"
+
+            android:textStyle="bold"
+            android:textSize="19dp"
+            android:text="11)-Settings section that helps the students to change their settings of the application like ringtones, notifications etc."
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textviewback"
+            android:layout_marginTop="30dp"/>
+
+
+
+    </LinearLayout>
+</ScrollView>

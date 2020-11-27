@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="mega.GRE.examination">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/logoapp"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name="mega.GRE.examination.Results5"></activity>
+        <activity android:name="mega.GRE.examination.Mixedquiz16" />
+        <activity android:name="mega.GRE.examination.Mixedquiz15" />
+        <activity android:name="mega.GRE.examination.Mixedquiz14" />
+        <activity android:name="mega.GRE.examination.Mixedquiz13" />
+        <activity android:name="mega.GRE.examination.Mixedquiz12" />
+        <activity android:name="mega.GRE.examination.Mixedquiz11" />
+        <activity android:name="mega.GRE.examination.Mixedquiz10" />
+        <activity android:name="mega.GRE.examination.Mixedquiz9" />
+        <activity android:name="mega.GRE.examination.Mixedquiz8" />
+        <activity android:name="mega.GRE.examination.Mixedquiz7" />
+        <activity android:name="mega.GRE.examination.Mixedquiz6" />
+        <activity android:name="mega.GRE.examination.Mixedquiz5" />
+        <activity android:name="mega.GRE.examination.Mixedquiz4" />
+        <activity android:name="mega.GRE.examination.Mixedquiz3" />
+        <activity android:name="mega.GRE.examination.Mixedquiz2" />
+        <activity android:name="mega.GRE.examination.Mixedquiz" />
+        <activity android:name="mega.GRE.examination.Results2" />
+        <activity android:name="mega.GRE.examination.textcompletionscroll"/>
+        <activity android:name="mega.GRE.examination.textcompletionscroll2"/>
+        <activity android:name="mega.GRE.examination.textcompletionscroll3"/>
+        <activity android:name="mega.GRE.examination.textcompletionscroll4"/>
+        <activity android:name="mega.GRE.examination.textcompletionscroll5"/>
+        <activity android:name="mega.GRE.examination.textcompletionscroll6"/>
+        <activity android:name="mega.GRE.examination.textcompletionscroll7"/>
+        <activity android:name="mega.GRE.examination.textcompletionscroll8"/>
+        <activity android:name="mega.GRE.examination.Result3"/>
+
+
+
+
+
+
+        <activity android:name="mega.GRE.examination.Quantnumericscroll8" />
+        <activity android:name="mega.GRE.examination.Quantnumericscroll7" />
+        <activity android:name="mega.GRE.examination.Quantnumericscroll6" />
+        <activity android:name="mega.GRE.examination.Quantnumericscroll5" />
+        <activity android:name="mega.GRE.examination.Quantnumericscroll4" />
+        <activity android:name="mega.GRE.examination.Quantnumericscroll3" />
+        <activity android:name="mega.GRE.examination.Quantnumericscroll2" />
+        <activity android:name="mega.GRE.examination.Results" />
+        <activity android:name="mega.GRE.examination.Quantcomparisonscroll8" />
+        <activity android:name="mega.GRE.examination.Quantcomparisonscroll7" />
+        <activity android:name="mega.GRE.examination.Quantcomparisonscroll6" />
+        <activity android:name="mega.GRE.examination.Quantcomparisonscroll5" />
+        <activity android:name="mega.GRE.examination.Quantcomparisonscroll4" />
+        <activity android:name="mega.GRE.examination.Quantcomparisonscroll3" />
+        <activity android:name="mega.GRE.examination.Quantcomparisonscroll2" />
+        <activity android:name="mega.GRE.examination.Quantnumericscroll" />
+        <activity android:name="mega.GRE.examination.Quantcomparisonscroll" />
+        <activity android:name="mega.GRE.examination.Launching">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="mega.GRE.examination.Home"
+            android:label="@string/title_activity_home"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="mega.GRE.examination.Feedback" />
+        <activity android:name="mega.GRE.examination.Privacy" />
+        <activity android:name="mega.GRE.examination.Terms" />
+        <activity android:name="mega.GRE.examination.Faqs" />
+        <activity android:name="mega.GRE.examination.Features" />
+        <activity android:name="mega.GRE.examination.Scores" />
+        <activity android:name="mega.GRE.examination.University" />
+        <activity android:name="mega.GRE.examination.Reasons" />
+        <activity android:name="mega.GRE.examination.Contactus" />
+        <activity
+            android:name="mega.GRE.examination.Settings"
+            android:label="@string/title_activity_settings" />
+        <activity
+            android:name="mega.GRE.examination.MainActivitytab"
+            android:label="@string/title_activity_main_activitytab"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name="mega.GRE.examination.Tabbuttonhandle" />
+        <activity android:name="mega.GRE.examination.Vocabscroll" />
+        <activity android:name="mega.GRE.examination.Top500wordslist" />
+        <activity android:name="mega.GRE.examination.Times" />
+        <activity android:name="mega.GRE.examination.Show" />
+        <activity android:name="mega.GRE.examination.Estimatedscore" />
+
+    </application>
+
+</manifest>

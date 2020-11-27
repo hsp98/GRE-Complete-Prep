@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView android:id="@+id/login_form100"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/backgroundimage"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="600dp"
+        android:orientation="vertical"
+        android:paddingBottom="@dimen/activity_vertical_margin"
+        android:background="@drawable/backgroundimage"
+        android:paddingLeft="@dimen/activity_horizontal_margin"
+        android:paddingRight="@dimen/activity_horizontal_margin"
+        android:paddingTop="@dimen/activity_vertical_margin"
+        tools:context="mega.GRE.examination.Quantnumericscroll7">
+
+        <TextView
+            android:id="@+id/textView146"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:textColor="#fffcb7"
+            android:textSize="19dp"
+            android:text="At a minimum, how many complete buckets of water, each with a capacity of 3 cubic meters, are needed to fill an empty cylindrical tank whose height is 3 meters and whose base has a radius of 2 meters? Note: The value of pi is 3.14"
+            android:padding="16dp"
+            android:gravity="center"
+            android:textStyle="bold"
+
+            android:background="@drawable/textviewback"
+            android:layout_marginTop="10dp"/>
+        <EditText
+            android:id="@+id/edittext146"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+android:inputType="number"
+            android:textColorHint="#fffcb7"
+            android:textSize="19dp"
+            android:hint="Enter your answer in integer"
+            android:padding="16dp"
+            android:gravity="center"
+
+            android:background="@drawable/textviewback"
+            android:layout_marginTop="20dp"/>
+
+
+        <Button
+            android:layout_width="251dp"
+            android:layout_height="wrap_content"
+            android:text="NEXT"
+            android:textColor="#fffcb7"
+            android:textStyle="bold"
+            android:background="@drawable/buttonback"
+            android:id="@+id/button146"
+            android:layout_margin="@dimen/activity_vertical_margin"
+
+            android:layout_gravity="center_horizontal" />
+
+    </LinearLayout>
+</ScrollView>
